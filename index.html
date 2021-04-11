@@ -25,25 +25,7 @@
          color: #647dee;
       }
    </style>
-   <script src="https://code.jquery.com/jquery-3.6.0.min.js"
-      integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4=" crossorigin="anonymous"></script>
-   <script type="text/javascript">
-      $(document).ready(function () {
-         $("#view_certified").click(function () {           
-
-            if ($('#projects').is(':visible')) {
-               $('#projects').hide();
-               $('#Certifieds').show();
-               $(this).text("View projects");
-            } else {
-               $('#projects').show();
-               $('#Certifieds').hide();
-               $(this).text("View Certifieds");
-            }
-
-         });
-      });
-   </script>
+   
 </head>
 
 <body>
@@ -76,7 +58,7 @@
                   <p class=about-wrapper__info-text>If you want to contact me via email, feel comfortable any time.</p>
                   <span class="d-flex mt-3">
                      <a target=_blank class="cta-btn cta-btn--resume" href="resume.pdf">View Resume</a>
-                     <a class="cta-btn cta-btn--resume" id="view_certified">View Certifieds </a>
+                     <a class="cta-btn cta-btn--resume" href="#Certifieds" id="view_certified">View Certifieds </a>
                   </span>
                </div>
             </div>
@@ -192,7 +174,7 @@
       </div>
    </section>
 
-   <section id="Certifieds" style="display: none;">
+   <section id="Certifieds">
       <div class=container>
          <div class=project-wrapper>
             <h2 class="section-title dark-blue-text">Certifieds</h2>
