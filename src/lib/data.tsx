@@ -19,7 +19,6 @@ import LogoAzureDevops from '/public/images/logos/icon-azure-devops.svg';
 import LogoThreatLocker from '/public/images/logos/logo-threatlocker.svg';
 import LogoThreatLockerLight from '/public/images/logos/logo-threatlocker-light.svg';
 import LogoBancoSantaCruz from '/public/images/logos/logo-bancosantacruz.svg';
-import LogoCerveceriaDominicana from '/public/images/logos/logo-cervecerianacional.svg';
 import LogoCerveceriaDominicanaLight from '/public/images/logos/logo-cervecerianacional-light.svg';
 
 import projectFoodCraft from '/public/images/project-food-craft.png'; 
@@ -184,8 +183,7 @@ export const EXPERIENCES: ExperienceDetails[] = [
     ]
   },
   {
-    logo: LogoCerveceriaDominicana,
-    darkModeLogo: LogoCerveceriaDominicanaLight,
+    logo: LogoCerveceriaDominicanaLight,
     logoAlt: 'Cerveceria Nacional Dominicana logo',
     position: 'Integration Developer',
     startDate: new Date(2021, 3),
