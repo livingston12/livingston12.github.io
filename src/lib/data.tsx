@@ -50,13 +50,13 @@ export const NAV_LINKS = [
     href: '#about',
   },
   {
-    label: 'Work',
-    href: '#work',
+    label: 'Experience',
+    href: '#experience',
   },
   {
-    label: 'Experience',
-    href: '#Experience',
-  },
+    label: 'Work',
+    href: '#work',
+  },  
   {
     label: 'Contact',
     href: '#contact',
