@@ -9,7 +9,7 @@ import Footer from '@/components/layout/footer';
 
 const inter = Inter({ subsets: ['latin'] });
 
-const title = 'Livingston Lyttle | Full Stack Developer From Florida, United States.';
+const title = 'Livingston Lyttle | Full Stack Developer From Florida, USA.';
 const description =
   'A self-proclaimed designer who specializes in full stack development (React.js & .net), from Florida, United States.';
 const url = 'https://livingston12.github.io/';
@@ -36,7 +36,7 @@ export const metadata: Metadata = {
     siteName: title,
     images: [
       {
-        url: '/images/open-graph-sagar.png',
+        url: '/images/open-graph-livingston.png',
       },
     ],
   },
