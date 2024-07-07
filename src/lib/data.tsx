@@ -26,7 +26,7 @@ import projectFoodCraft from '/public/images/project-food-craft.png';
 import ProjectRestaurant from '/public/images/project-restaurant-system.png';
 import ProjectRestaurantApi from '/public/images/project-restaurant-systemAPI.png';
 import ProjectFinancialSystem from '/public/images/project-sistema-Financiera.png';
-import ProjectMoneyApp from '/public/images/project-moneyapp.png';
+import ProjectMoneyApp from '/public/images/project-moneyApp.png';
 
 
 import AvatarDummy from '/public/images/avatar-dummy.svg';
