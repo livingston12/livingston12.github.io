@@ -58,24 +58,27 @@ const ProjectDetails = ({
             <Tag key={index} label={technology} />
           ))}
         </div>
-        <Link
-          href={url}
-          noCustomization
-          className="self-start rounded-lg p-1.5 hover:bg-gray-50 [&_svg]:stroke-gray-500"
-          externalLink
-        >
-          <GithubIcon />
-        </Link>
-        {website && (
+        <div className='flex gap-2 flex-row'>
           <Link
-            href={website}
+            href={url}
             noCustomization
             className="self-start rounded-lg p-1.5 hover:bg-gray-50 [&_svg]:stroke-gray-500"
             externalLink
           >
-            <ExternalLink />
+            <GithubIcon />
           </Link>
-        )}        
+          {website && (
+            <Link
+              href={website}
+              noCustomization
+              className="self-start rounded-lg p-1.5 hover:bg-gray-50 [&_svg]:stroke-gray-500"
+              externalLink
+            >
+              <ExternalLink />
+            </Link>
+        )} 
+        </div>
+               
       </div>
     </Card>
   );
