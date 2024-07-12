@@ -1,5 +1,5 @@
 import Image from 'next/image';
-import { ExternalLink } from 'lucide-react';
+import { ExternalLink, GithubIcon } from 'lucide-react';
 
 import { ProjectDetails as ProjectDetailsType } from '@/lib/types';
 import { mergeClasses } from '@/lib/utils';
@@ -19,6 +19,7 @@ const ProjectDetails = ({
   url,
   previewImage,
   layoutType = 'default',
+  website = ''
 }: ProjectDetailsProps) => {
   return (
     <Card className="mx-auto flex w-full max-w-6xl flex-col md:flex-row">
@@ -63,8 +64,18 @@ const ProjectDetails = ({
           className="self-start rounded-lg p-1.5 hover:bg-gray-50 [&_svg]:stroke-gray-500"
           externalLink
         >
-          <ExternalLink />
+          <GithubIcon />
         </Link>
+        {website && (
+          <Link
+            href={website}
+            noCustomization
+            className="self-start rounded-lg p-1.5 hover:bg-gray-50 [&_svg]:stroke-gray-500"
+            externalLink
+          >
+            <ExternalLink />
+          </Link>
+        )}        
       </div>
     </Card>
   );

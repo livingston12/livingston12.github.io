@@ -214,7 +214,8 @@ export const PROJECTS: ProjectDetails[] = [
        prepare. Perfect for home cooks looking for inspiration or to make the most
        out of their pantry!
       `,
-    url: 'https://github.com/livingston12/IngredientsTasks.github.io',
+    url: 'https://github.com/livingston12/IngredientsTasks',
+    website: 'https://github.com/livingston12/IngredientsTasks',
     previewImage: projectFoodCraft,
     technologies: [
       'React',

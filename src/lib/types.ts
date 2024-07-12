@@ -28,6 +28,7 @@ export type ProjectDetails = {
   url: string;
   previewImage: string | StaticImageData;
   technologies: string[];
+  website?: string;
 };
 
 export type TestimonialDetails = {
