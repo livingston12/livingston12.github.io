@@ -215,7 +215,7 @@ export const PROJECTS: ProjectDetails[] = [
        out of their pantry!
       `,
     url: 'https://github.com/livingston12/IngredientsTasks',
-    website: 'https://github.com/livingston12/IngredientsTasks',
+    website: 'https://livingston12.github.io/IngredientsTasks/',
     previewImage: projectFoodCraft,
     technologies: [
       'React',
