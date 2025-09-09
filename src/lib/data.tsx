@@ -150,37 +150,30 @@ export const EXPERIENCES: ExperienceDetails[] = [
     darkModeLogo: LogoThreatLockerLight,
     logoAlt: 'Logo ThreatLocker',
     position: 'Full Stack Developer',
-    startDate: new Date(2024, 6),
+    startDate: new Date(2024, 7),
     currentlyWorkHere: true,
     summary: [
-      `Developed and modified robust security measures to safeguard applications 
-      against cyber attacks, including intrusion detection, data encryption, 
-      and secure authentication protocols, ensuring comprehensive protection and 
-      compliance with industry standards.`,
-      'Worked with a variety of technologies, including Angular, ASP.NET, .NET Core, SQL Server, Git, and others.',
+      `Implemented automated approval processing system for machine policy requests, using dynamic rules (e.g., geo-location, category,
+        organization-level policies) and flag-based control logic for critical decisioning.`,
+      `Designed a robust retry mechanism with minimal failure tolerance to handle sensitive approval workflows, including enum-based
+        flag tracking and staged updates across multiple tables.`,
+      `Built an auto-increment patching system to update outdated applications across organizations based on policy mapping, application
+      versions, and expiration logic—similar to OS-level patch management systems.`
     ],
   },
   {
     logo: LogoBancoSantaCruz,
     logoAlt: 'Banco Santa Cruz logo',
     position: 'Senior Software Developer',
-    startDate: new Date(2023, 8),
-    endDate: new Date(2024, 6),
+    startDate: new Date(2022, 7),
+    endDate: new Date(2024, 7),
     summary: [
-      `Led development of an app to automatically send fiscal receipt numbers to 
-      the Junta Central Electoral via scheduled jobs.`,
-      `Improved the algorithm that send to the api of 'Qualtrics',
-      reducing 95% of the processing time.`     
+      `Led the architecture and implementation of a fiscal receipt automation system using .NET background jobs, boosting compliance
+        reporting efficiency by over 80%.`,
+      `Developed secure, scalable APIs including Visa 3D Secure payments and SMS-based authentication, aligned with PCI-DSS standards.`,
+      `Modernized the CI/CD pipeline through Docker containerization and optimized legacy integrations (e.g., Qualtrics API), reducing la-
+        tency by 95%.`     
     ],
-    secondaryPosition: 'Senior Software Developer',
-    startDateSecondary: new Date(2022, 7),
-    endDateSecondary: new Date(2023, 4),
-    summarySecondary: [
-      `Developed a .NET Core 6 API for secure SMS-based customer access to product info, 
-      enabling operational deployment and account queries via messages to 272.`,
-      `Developed a .NET Core 6 API for Visa payments incorporating 3D Secure, enhancing transaction security and authentication 
-        through tailored internal business logic aligned with Visa specifications.`
-    ]
   },
   {
     logo: LogoCerveceriaDominicanaLight,
@@ -205,6 +198,29 @@ export const EXPERIENCES: ExperienceDetails[] = [
 ];
 
 export const PROJECTS: ProjectDetails[] = [
+   {
+    name: `Reynova FBA – Automated Amazon FBA Business
+      Platform `,
+    description:
+      `I founded Reynova LLC to build a fully automated and data-driven Amazon FBA operation focused on Wholesale and Private Label strategies.
+       I designed and developed an end-to-end system that leverages AI, machine learning, and real-time analytics to identify profitable products, 
+       optimize sourcing decisions, and scale operations with minimal manual intervention.
+      `,
+    url: '',
+    website: 'https://dashboard.reynovas.com',
+    previewImage: projectFoodCraft,
+    technologies: [
+      'Node.js'
+      ,'TypeScript'
+      ,'MongoDB'
+      ,'FastAPI'
+      ,'Python'
+      ,'n8n'
+      ,'Docker'
+      ,'Ollama'
+      ,'RabbitMQ'
+    ],
+  },
   {
     name: 'FoodCraft AI',
     description:
