@@ -25,6 +25,10 @@ import projectFoodCraft from '/public/images/project-food-craft.png';
 import ProjectRestaurant from '/public/images/project-restaurant-system.png';
 import ProjectRestaurantApi from '/public/images/project-restaurant-systemAPI.png';
 import ProjectFinancialSystem from '/public/images/project-sistema-Financiera.png';
+import projectReynovaFBA1 from '/public/images/project-reynova-fba-1.png';
+import projectReynovaFBA2 from '/public/images/project-reynova-fba-2.png';
+import projectReynovaFBA3 from '/public/images/project-reynova-fba-3.png';
+
 
 import AvatarDummy from '/public/images/avatar-dummy.svg';
 
@@ -206,7 +210,10 @@ export const PROJECTS: ProjectDetails[] = [
       `,
     url: '',
     website: 'https://dashboard.reynovas.com',
-    previewImages: [{ light: projectFoodCraft }],
+    previewImages: [
+      { light: projectReynovaFBA1 }
+      , { light: projectReynovaFBA2 }
+      , { light: projectReynovaFBA3 }],
     technologies: [
       'Node.js'
       , 'TypeScript'
