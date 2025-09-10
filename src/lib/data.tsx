@@ -173,7 +173,7 @@ export const EXPERIENCES: ExperienceDetails[] = [
     logoAlt: 'Banco Santa Cruz logo',
     position: 'Senior Software Developer',
     startDate: new Date(2022, 7),
-    endDate: new Date(2024, 7),
+    endDate: new Date(2024, 6),
     summary: [
       `Led the architecture and implementation of a fiscal receipt automation system using .NET background jobs, boosting compliance
         reporting efficiency by over 80%.`,
