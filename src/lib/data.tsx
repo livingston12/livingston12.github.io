@@ -27,11 +27,11 @@ import ProjectRestaurantApi from '/public/images/project-restaurant-systemAPI.pn
 import projectReynovaFBA1 from '/public/images/project-reynova-fba-1.png';
 import projectReynovaFBA2 from '/public/images/project-reynova-fba-2.png';
 import projectReynovaFBA3 from '/public/images/project-reynova-fba-3.png';
-import projectTenGym1 from '/public/images/project-tengym-1.png';
-import projectTenGym2 from '/public/images/project-tengym-2.png';
-import projectTenGym3 from '/public/images/project-tengym-3.png';
-import projectTenGym4 from '/public/images/project-tengym-4.png';
-import projectTenGym5 from '/public/images/project-tengym-5.png';
+import projectTenGym1 from '/public/images/project-tengym-1.jpeg';
+import projectTenGym2 from '/public/images/project-tengym-2.jpeg';
+import projectTenGym3 from '/public/images/project-tengym-3.jpeg';
+import projectTenGym4 from '/public/images/project-tengym-4.jpeg';
+import projectTenGym5 from '/public/images/project-tengym-5.jpeg';
 
 
 
