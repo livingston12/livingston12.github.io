@@ -33,9 +33,7 @@ const ProjectDetails = ({
             : 'md:order-last md:rounded-r-xl md:border-l'
         )}
       >
-        <Link noCustomization href={url} externalLink>
-          <ImageCarousel images={previewImages} />
-        </Link>
+        <ImageCarousel images={previewImages} />
       </div>
 
       {/* Content */}
@@ -72,9 +70,9 @@ const ProjectDetails = ({
             >
               <ExternalLink />
             </Link>
-        )} 
+          )}
         </div>
-               
+
       </div>
     </Card>
   );
