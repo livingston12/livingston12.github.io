@@ -7,6 +7,7 @@ import Typography from '@/components/general/typography';
 import Link from '@/components/navigation/link';
 import Tag from '@/components/data-display/tag';
 import Card from '@/components/layout/card';
+import ImageCarousel from './ImageCarousel';
 
 type ProjectDetailsProps = ProjectDetailsType & {
   layoutType: 'default' | 'reverse';
@@ -17,7 +18,7 @@ const ProjectDetails = ({
   description,
   technologies,
   url,
-  previewImage,
+  previewImages,
   layoutType = 'default',
   website = ''
 }: ProjectDetailsProps) => {
@@ -33,12 +34,7 @@ const ProjectDetails = ({
         )}
       >
         <Link noCustomization href={url} externalLink>
-          <Image
-            src={previewImage}
-            alt={`${name} preview`}
-            className="rounded-xl shadow-lg transition-transform duration-500 md:hover:scale-105"
-            style={{ objectFit: 'cover' }}
-          />
+          <ImageCarousel images={previewImages} />
         </Link>
       </div>
 

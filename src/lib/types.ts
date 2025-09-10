@@ -26,7 +26,11 @@ export type ProjectDetails = {
   name: string;
   description: string;
   url: string;
-  previewImage: string | StaticImageData;
+  previewImages: {
+    light: string | StaticImageData;
+    dark?: string | StaticImageData;
+    alt?: string;
+  }[];
   technologies: string[];
   website?: string;
 };

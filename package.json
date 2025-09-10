@@ -21,6 +21,7 @@
     "clsx": "^1.2.1",
     "eslint": "8.43.0",
     "eslint-config-next": "13.4.6",
+    "keen-slider": "^6.8.6",
     "lucide-react": "^0.259.0",
     "next": "^14.2.4",
     "next-fonts": "^1.5.1",

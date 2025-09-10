@@ -21,7 +21,7 @@ import LogoThreatLockerLight from '/public/images/logos/logo-threatlocker-light.
 import LogoBancoSantaCruz from '/public/images/logos/logo-bancosantacruz.svg';
 import LogoCerveceriaDominicanaLight from '/public/images/logos/logo-cervecerianacional-light.svg';
 
-import projectFoodCraft from '/public/images/project-food-craft.png'; 
+import projectFoodCraft from '/public/images/project-food-craft.png';
 import ProjectRestaurant from '/public/images/project-restaurant-system.png';
 import ProjectRestaurantApi from '/public/images/project-restaurant-systemAPI.png';
 import ProjectFinancialSystem from '/public/images/project-sistema-Financiera.png';
@@ -55,7 +55,7 @@ export const NAV_LINKS = [
   {
     label: 'Work',
     href: '#work',
-  },  
+  },
   {
     label: 'Contact',
     href: '#contact',
@@ -172,7 +172,7 @@ export const EXPERIENCES: ExperienceDetails[] = [
         reporting efficiency by over 80%.`,
       `Developed secure, scalable APIs including Visa 3D Secure payments and SMS-based authentication, aligned with PCI-DSS standards.`,
       `Modernized the CI/CD pipeline through Docker containerization and optimized legacy integrations (e.g., Qualtrics API), reducing la-
-        tency by 95%.`     
+        tency by 95%.`
     ],
   },
   {
@@ -193,12 +193,12 @@ export const EXPERIENCES: ExperienceDetails[] = [
     summarySecondary: [
       `Developed two websites using .Net Core, Vue Js, HTML, CSS, JavaScript and SQL Server`,
       `Managed diverse data sources to consolidate into a unified system, enhancing data accessibility.`
-],
+    ],
   },
 ];
 
 export const PROJECTS: ProjectDetails[] = [
-   {
+  {
     name: `Reynova FBA – Automated Amazon FBA Business
       Platform `,
     description:
@@ -208,17 +208,17 @@ export const PROJECTS: ProjectDetails[] = [
       `,
     url: '',
     website: 'https://dashboard.reynovas.com',
-    previewImage: projectFoodCraft,
+    previewImages: [{ light: projectFoodCraft }],
     technologies: [
       'Node.js'
-      ,'TypeScript'
-      ,'MongoDB'
-      ,'FastAPI'
-      ,'Python'
-      ,'n8n'
-      ,'Docker'
-      ,'Ollama'
-      ,'RabbitMQ'
+      , 'TypeScript'
+      , 'MongoDB'
+      , 'FastAPI'
+      , 'Python'
+      , 'n8n'
+      , 'Docker'
+      , 'Ollama'
+      , 'RabbitMQ'
     ],
   },
   {
@@ -232,7 +232,7 @@ export const PROJECTS: ProjectDetails[] = [
       `,
     url: 'https://github.com/livingston12/IngredientsTasks',
     website: 'https://livingston12.github.io/IngredientsTasks/',
-    previewImage: projectFoodCraft,
+    previewImages: [{ light: projectFoodCraft }],
     technologies: [
       'React',
       'Tailwindcss',
@@ -249,9 +249,9 @@ export const PROJECTS: ProjectDetails[] = [
       for delivering exceptional service and convenience
       `,
     url: 'https://github.com/livingston12/Restaurant-system',
-    previewImage: ProjectRestaurant,
+    previewImages: [{ light: ProjectRestaurant }],
     technologies: [
-      'Vue Js', 
+      'Vue Js',
       'Vuetify',
       'Router'
     ],
@@ -265,9 +265,9 @@ export const PROJECTS: ProjectDetails[] = [
        and functionality within the system’s infrastructure.
       `,
     url: 'https://github.com/livingston12/PANDORA',
-    previewImage: ProjectRestaurantApi,
+    previewImages: [{ light: ProjectRestaurantApi }],
     technologies: [
-      '.NET Core', 
+      '.NET Core',
       'SQL Server'
     ],
   },
@@ -279,7 +279,7 @@ export const PROJECTS: ProjectDetails[] = [
       schedules, fee management, and financial account integration, it provides a comprehensive solution for loan origination and
       management.`,
     url: 'https://github.com/livingston12/sistema-financiera',
-    previewImage: ProjectFinancialSystem,
+    previewImages: [{ light: ProjectFinancialSystem }],
     technologies: [
       'Asp.Net MVC',
       'Jquery',
@@ -288,18 +288,7 @@ export const PROJECTS: ProjectDetails[] = [
       'Boostrap',
       'SQL Server',
     ],
-  },
-  {
-    name: 'Money app',
-    description:
-      'This project is the copy to Cash app light.',
-    url: 'https://github.com/livingston12/MoneyApp',
-    previewImage: ProjectMoneyApp,
-    technologies: [
-      'Vue Native', 
-      'Expo'
-    ],
-  },
+  }
 ];
 
 export const TESTIMONIALS: TestimonialDetails[] = [
