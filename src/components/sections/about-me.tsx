@@ -1,6 +1,6 @@
 import Image from 'next/image';
 
-import LivingstonFullPose from '/public/images/livingston-full-pose.jpeg';
+import LivingstonFullPose from '/public/images/compure-img.png';
 import Tag from '@/components/data-display/tag';
 import Container from '@/components/layout/container';
 import Typography from '@/components/general/typography';
