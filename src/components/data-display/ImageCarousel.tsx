@@ -41,17 +41,21 @@ const ImageCarousel = ({ images }: ImageCarouselProps) => {
   if (!mounted) return null;
 
   return (
-    <div ref={sliderRef} className="keen-slider w-full">
+    <div ref={sliderRef} className="keen-slider max-w-full">
       {images.map((img, i) => {
         const src = theme === 'dark' && img.dark ? img.dark : img.light;
         return (
-          <div className="keen-slider__slide rounded-lg overflow-hidden shadow-md" key={i}>
+          <div
+            key={i}
+            className="keen-slider__slide rounded-lg overflow-hidden shadow-md"
+          >
             <Image
               src={src}
-              alt={img.alt || `Image ${i + 1}`}
+              alt={img.alt || `Preview ${i + 1}`}
               width={600}
               height={400}
               className="w-full h-auto object-contain"
+              unoptimized
             />
           </div>
         );
