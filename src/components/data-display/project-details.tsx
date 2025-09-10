@@ -52,16 +52,18 @@ const ProjectDetails = ({
             <Tag key={index} label={technology} />
           ))}
         </div>
-        <div className='flex gap-2 flex-row'>
-          url && (
-          <Link
-            href={url}
-            noCustomization
-            className="self-start rounded-lg p-1.5 hover:bg-gray-50 [&_svg]:stroke-gray-500"
-            externalLink
-          >
-            <GithubIcon />
-          </Link>
+        <div className="flex gap-2 flex-row">
+          {url && (
+            <Link
+              href={url}
+              noCustomization
+              className="self-start rounded-lg p-1.5 hover:bg-gray-50 [&_svg]:stroke-gray-500"
+              externalLink
+            >
+              <GithubIcon />
+            </Link>
+          )}
+
           {website && (
             <Link
               href={website}
@@ -72,7 +74,6 @@ const ProjectDetails = ({
               <ExternalLink />
             </Link>
           )}
-          )
         </div>
 
       </div>
