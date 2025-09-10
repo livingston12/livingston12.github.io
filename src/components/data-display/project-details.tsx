@@ -53,6 +53,7 @@ const ProjectDetails = ({
           ))}
         </div>
         <div className='flex gap-2 flex-row'>
+          url && (
           <Link
             href={url}
             noCustomization
@@ -71,6 +72,7 @@ const ProjectDetails = ({
               <ExternalLink />
             </Link>
           )}
+          )
         </div>
 
       </div>

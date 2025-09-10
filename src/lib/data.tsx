@@ -24,10 +24,15 @@ import LogoCerveceriaDominicanaLight from '/public/images/logos/logo-cervecerian
 import projectFoodCraft from '/public/images/project-food-craft.png';
 import ProjectRestaurant from '/public/images/project-restaurant-system.png';
 import ProjectRestaurantApi from '/public/images/project-restaurant-systemAPI.png';
-import ProjectFinancialSystem from '/public/images/project-sistema-Financiera.png';
 import projectReynovaFBA1 from '/public/images/project-reynova-fba-1.png';
 import projectReynovaFBA2 from '/public/images/project-reynova-fba-2.png';
 import projectReynovaFBA3 from '/public/images/project-reynova-fba-3.png';
+import projectTenGym1 from '/public/images/project-tengym-1.png';
+import projectTenGym2 from '/public/images/project-tengym-2.png';
+import projectTenGym3 from '/public/images/project-tengym-3.png';
+import projectTenGym4 from '/public/images/project-tengym-4.png';
+import projectTenGym5 from '/public/images/project-tengym-5.png';
+
 
 
 import AvatarDummy from '/public/images/avatar-dummy.svg';
@@ -227,6 +232,27 @@ export const PROJECTS: ProjectDetails[] = [
     ],
   },
   {
+    name: 'TenGym – English Learning App',
+    description: `
+    TenGym is a mobile app designed to help users improve their English skills through
+    interactive lessons, structured class plans, and AI-powered feedback. Built with React Native,
+    the app allows teachers to assign activities and track student progress. Ideal for language
+    learners seeking a guided, gamified learning experience on mobile devices.
+  `,
+    url: '',
+    previewImages: [
+      { light: projectTenGym1 },
+      { light: projectTenGym2 },
+      { light: projectTenGym3 },
+      { light: projectTenGym4 },
+      { light: projectTenGym5 }
+    ],
+    technologies: [
+      'React Native',
+      'TypeScript'
+    ],
+  },
+  {
     name: 'FoodCraft AI',
     description:
       `FoodCraft AI is a smart culinary assistant that helps you craft delicious 
@@ -274,24 +300,6 @@ export const PROJECTS: ProjectDetails[] = [
     technologies: [
       '.NET Core',
       'SQL Server'
-    ],
-  },
-  {
-    name: 'Financial system',
-    description:
-      `This versatile loan management system allows individuals and businesses 
-      to efficiently handle loan operations. With features like customizable payment 
-      schedules, fee management, and financial account integration, it provides a comprehensive solution for loan origination and
-      management.`,
-    url: 'https://github.com/livingston12/sistema-financiera',
-    previewImages: [{ light: ProjectFinancialSystem }],
-    technologies: [
-      'Asp.Net MVC',
-      'Jquery',
-      'Html',
-      'Css',
-      'Boostrap',
-      'SQL Server',
     ],
   }
 ];
